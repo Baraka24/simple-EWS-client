@@ -1,0 +1,18 @@
+{
+    "name": "ews-client/ews-client",
+    "description": "Client EWS simple pour Exchange",
+    "require": {
+        "garethp/php-ews": "^0.11",
+        "jamesiarmes/php-ntlm": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EWSClient\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "secure-http": false
+    }
+}
